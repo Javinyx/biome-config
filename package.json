@@ -1,10 +1,16 @@
 {
 	"name": "@javinyx/biome-config",
-	"version": "0.0.1",
+	"version": "0.0.2",
+	"license": "MIT",
+	"homepage": "https://github.com/Javinyx/biome-config",
 	"author": {
 		"name": "Javin Barone",
 		"email": "dev@ja.vin",
 		"url": "https://ja.vin"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Javinyx/biome-config"
 	},
 	"description": "BiomeJS configuration",
 	"keywords": ["biome", "biomejs", "config", "configuration"],
