@@ -49,7 +49,7 @@ Add scripts to your `package.json` if you haven't already:
 {
     // ...
     "[javascript][javascriptreact][typescript][typescriptreact][json][jsonc]": {
-      "editor.defaultFormatter": "biomejs.biome",
+      "editor.defaultFormatter": "biomejs.biome"
     },
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
