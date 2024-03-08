@@ -20,7 +20,53 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true
+			"recommended": true,
+			"complexity": {
+				"noExcessiveCognitiveComplexity": "error",
+				"noVoid": "error",
+				"useSimplifiedLogicExpression": "error"
+			},
+			"correctness": {
+				"noNewSymbol": "error",
+				"noUndeclaredVariables": "error",
+				"noUnusedImports": "warn",
+				"noUnusedVariables": "warn",
+				"useHookAtTopLevel": "error"
+			},
+			"style": {
+				"noDefaultExport": "error",
+				"noImplicitBoolean": "error",
+				"noNamespace": "error",
+				"noNegationElse": "warn",
+				"noShoutyConstants": "error",
+				"useBlockStatements": "error",
+				"useCollapsedElseIf": "error",
+				"useShorthandArrayType": "error",
+				"useFragmentSyntax": "error",
+				"useNamingConvention": "error",
+				"useSingleCaseStatement": "error"
+			},
+			"suspicious": {
+				"noEmptyBlockStatements": "error",
+				"useAwait": "error"
+			},
+			"nursery": {
+				"noBarrelFile": "error",
+				"noDuplicateJsonKeys": "error",
+				"noDuplicateTestHooks": "error",
+				"noExcessiveNestedTestSuites": "error",
+				"noExportsInTest": "error",
+				"noFocusedTests": "error",
+				"noNamespaceImport": "error",
+				"noReExportAll": "error",
+				"noSemicolonInJsx": "error",
+				"noSkippedTests": "error",
+				"noUndeclaredDependencies": "error",
+				"noUselessTernary": "error",
+				"useImportRestrictions": "error",
+				"useJsxKeyInIterable": "error",
+				"useSortedClasses": "error"
+			}
 		}
 	},
 	"javascript": {
@@ -35,7 +81,9 @@
 			"quoteProperties": "preserve",
 			"quoteStyle": "double",
 			"semicolons": "always",
-			"trailingComma": "all"
+			"trailingComma": "all",
+			"lineEnding": "lf",
+			"lineWidth": 140
 		},
 		"parser": {
 			"unsafeParameterDecoratorsEnabled": false
@@ -45,6 +93,16 @@
 		"parser": {
 			"allowComments": true,
 			"allowTrailingCommas": false
+		}
+	},
+	"css": {
+		"formatter": {
+			"enabled": true,
+			"indentStyle": "tab",
+			"indentWidth": 2,
+			"lineEnding": "lf",
+			"lineWidth": 80,
+			"quoteStyle": "double"
 		}
 	}
 }

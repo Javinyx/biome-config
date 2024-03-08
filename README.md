@@ -2,7 +2,7 @@
 
 <p>
     <img alt="NPM Version" src="https://img.shields.io/npm/v/%40javinyx%2Fbiome-config?style=for-the-badge&logo=npm&logoColor=%23ffffff&labelColor=%23000000&color=%235a0873">
-    <img alt="Libraries.io dependency status for specific release" src="https://img.shields.io/librariesio/release/npm/%40biomejs%2Fbiome/1.5.3?style=for-the-badge&logo=npm&logoColor=%23ffffff&label=%40biomejs%2Fbiome&labelColor=%23000000">
+    <img alt="NPM dev or peer Dependency Version" src="https://img.shields.io/npm/dependency-version/%40javinyx%2Fbiome-config/peer/%40biomejs%2Fbiome?style=for-the-badge&logo=dependabot&logoColor=ffffff&labelColor=000000">
 </p>
 
 ## Usage
@@ -19,7 +19,7 @@ Add the `extends` array to your project's `biome.json` file:
 // <project-root>/biome.json
 {
     "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-    "extends": ["./node_modules/@javinyx/biome-config/biome.json"],
+    "extends": "@javinyx/biome-config",
     // ...
 }
 ```
