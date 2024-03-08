@@ -1,0 +1,5 @@
+{
+	"name": "@javinyx/biome-config",
+	"version": "1.0.1",
+	"exports": "./biome.json"
+}
